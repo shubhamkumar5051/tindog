@@ -1,0 +1,217 @@
+#title {
+    background-color: #62b4eb;
+    color: #fff;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.change_font {
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 3% 15% 3% 15%;
+
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+/* download buttons */
+.download-buttons {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+    width: 50%;
+    transform: rotate(20deg);
+    position: relative;
+    left: 30%;
+
+}
+
+/* rotating image */
+
+/* tufani */
+/*
+
+}
+
+.features-departement {
+    color: #8f8f8f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
+.features-icon:hover {
+    color: #065aa8;
+}
+
+
+*/
+
+/* features section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #62b4eb;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #05588f;
+}
+
+/* testimonial section  */
+
+#testimonials {
+
+    text-align: center;
+    background-color: #62b4eb;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* abhi edit kiya h2 aur p text-align */
+p {
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* press section */
+
+#press {
+    background-color: #8fc9f0;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 10%;
+    margin: 50px 20px 10px;
+}
+
+.photo1 {
+    height: 5%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* press section button */
+.btton {
+    background-color: #4dadee;
+    border-color: #7ac2f1;
+
+}
+
+.btton:hover {
+    background-color: #084168;
+}
+
+#pricing {
+    padding: 80px;
+
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+    background-color: #4dadee;
+    color: rgb(12, 1, 1);
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+/* media queries */
+
+@media(max-width: 993px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
+
+/* footer section */
+#footer {
+    text-align: center;
+    padding: 3% 7%;
+    background-color: #cde0ec;
+}
+
+.social-icons {
+    margin: 20px 10px;
+    background-color: #cde0ec;
+}
+
+.social-icons:hover {
+    color: rgb(0, 0, 0);
+}
